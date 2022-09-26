@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Yelb</title>
+    <title>soulTec Container Demo</title>
 </head>
 <body>
     <div class="main-container">
@@ -10,7 +10,7 @@
             <div class="branding">
                 <a href="javascript://">
                     <clr-icon shape="user"></clr-icon>
-                    <span class="title">Yelb</span>
+                    <span class="title">soulTec Container Demo - Yelb</span>
                 </a>
             </div>
         </header>
@@ -18,7 +18,7 @@
         <div class="content-container">
             <div class="content-area">
                 <div class="center">
-                    <h2 class="aligned-center">Welcome to Yelb, the only hub for healthy food recommendations!</h2>
+                    <h2 class="aligned-center">Welcome to soulTec Container Demo, now choose where we shall go for lunch</h2>
 <!--                    <p class="aligned-center">The only hub for healthy food recommendations. We will take care of your diet!</p> -->
 
                     <div class="separator"></div>
@@ -28,15 +28,16 @@
                         <div class="col-sm-12 col-md-6 col-xl-3">
                             <div class="card">
                                 <div class="card-header">
-                                    <clr-icon shape="grid-view" dir="up" class="-color6" size="24" style="color: #374E61; width: 24px; height: 24px;"></clr-icon> IHOP
+                                    <clr-icon shape="crown" dir="up" class="-color6" size="24" style="color: #374E61; width: 24px; height: 24px;"></clr-icon> KAIMUG
                                 </div>
                                 <ul class="list-group list-group-flush">
                                     <li class="list-group-item">
-                                        <a href="http://www.ihop.com/" target="_blank"><b>Pancakes</b>, for a powerful start!</a>
+                                        <a href="https://www.kaimug.ch/" target="_blank"><b>Thai-Food</b>, always a great choice!</a>
                                     </li>
                                 </ul>
                                 <div class="card-footer">
-                                    <button class="btn btn-primary" (click)='vote("ihop")'>Vote</button>
+                                    <button class="btn btn-primary" (click)='vote("kaimug")'>Vote</button>
+<!-- <button class="btn btn-primary" (click)='vote("ihop")'>Vote</button> -->
                                 </div>
                             </div>
                         </div>
@@ -44,15 +45,16 @@
                         <div class="col-sm-12 col-md-6 col-xl-3">
                             <div class="card">
                                 <div class="card-header">
-                                    <clr-icon shape="cloud" dir="up" class="-color6" size="24" style="color: #d20059; width: 24px; height: 24px;"></clr-icon> Chipotle
+                                    <clr-icon shape="resource-pool" dir="up" class="-color6" size="24" style="color: #d20059; width: 24px; height: 24px;"></clr-icon> Dieci
                                 </div>
                                 <ul class="list-group list-group-flush">
                                     <li class="list-group-item">
-                                        <a href="https://www.chipotle.com/" target="_blank"><b>Burritos</b>, for a mid-day break!</a>
+                                        <a href="https://www.dieci.ch/de" target="_blank"><b>Pizza</b>, let's order in!</a>
                                     </li>
                                 </ul>
                                 <div class="card-footer">
-                                    <button class="btn btn-primary" (click)='vote("chipotle")'>Vote</button>
+                                    <!-- <button class="btn btn-primary" (click)='vote("chipotle")'>Vote</button> -->
+                                    <button class="btn btn-primary" (click)='vote("dieci")'>Vote</button>
                                 </div>
 
                             </div>
@@ -61,15 +63,16 @@
                         <div class="col-sm-12 col-md-6 col-xl-3">
                             <div class="card">
                                 <div class="card-header">
-                                    <clr-icon shape="compass" dir="up" class="-color6" size="24" style="color: #00A98C; width: 24px; height: 24px;"></clr-icon> Outback
+                                    <clr-icon shape="accessibility-1" dir="up" class="-color6" size="24" style="color: #00A98C; width: 24px; height: 24px;"></clr-icon> Altried
                                 </div>
                                 <ul class="list-group list-group-flush">
                                     <li class="list-group-item">
-                                        <a href="https://www.outback.com/" target="_blank"><b>Blooming onion</b>, what else?</a>
+                                        <a href="https://www.altried.ch/" target="_blank"><b>Altried Cantina</b>, not far and not expensive?</a>
                                     </li>
                                 </ul>
                                 <div class="card-footer">
-                                    <button class="btn btn-primary" (click)='vote("outback")'>Vote</button>
+                                    <!--<button class="btn btn-primary" (click)='vote("outback")'>Vote</button>-->
+                                    <button class="btn btn-primary" (click)='vote("altried")'>Vote</button>
                                 </div>
                             </div>
                         </div>
@@ -77,15 +80,16 @@
                         <div class="col-sm-12 col-md-6 col-xl-3">
                             <div class="card">
                                 <div class="card-header">
-                                    <clr-icon shape="dollar-bill" dir="up" class="-color6" size="24" style="color: #318700; width: 24px; height: 24px;"></clr-icon> Buca di Beppo
+                                    <clr-icon shape="layers" dir="up" class="-color6" size="24" style="color: #318700; width: 24px; height: 24px;"></clr-icon> Big Burger
                                 </div>
                                 <ul class="list-group list-group-flush">
                                     <li class="list-group-item">
-                                        <a href="http://www.bucadibeppo.com/" target="_blank"><b>Lasagne</b>, this is heaven!</a>
+                                        <a href="https://bigburger.ch/" target="_blank"><b>Burger</b>, this is heaven!</a>
                                     </li>
                                 </ul>
                                 <div class="card-footer">
-                                    <button class="btn btn-primary" (click)='vote("bucadibeppo")'>Vote</button>
+                                    <!--<button class="btn btn-primary" (click)='vote("bucadibeppo")'>Vote</button>-->
+                                    <button class="btn btn-primary" (click)='vote("bigburger")'>Vote</button>
                                 </div>
                             </div>
                         </div>
