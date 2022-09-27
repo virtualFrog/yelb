@@ -79,7 +79,7 @@ spec:
     spec:
       containers:
       - name: yelb-ui
-        image:  mreferre/yelb-ui:0.8
+        image:  virtualfrog/yelb-ui:latest
         ports:
         - containerPort: 80
 ---
@@ -123,7 +123,7 @@ spec:
     spec:
       containers:
       - name: yelb-db
-        image:  mreferre/yelb-db:0.5
+        image:  virtualfrog/yelb-db:latest
         ports:
         - containerPort: 5432
 ---
@@ -145,7 +145,7 @@ spec:
     spec:
       containers:
       - name: yelb-appserver
-        image:  mreferre/yelb-appserver:0.6
+        image:  virtualfrog/yelb-appserver:latest
         ports:
         - containerPort: 4567
 

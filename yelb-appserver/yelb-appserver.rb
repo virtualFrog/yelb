@@ -115,30 +115,30 @@ get '/api/getvotes' do
     @votes = getvotes()
 end #get /api/getvotes 
 
-get '/api/ihop' do
+get '/api/dieci' do
     headers 'Access-Control-Allow-Origin' => '*'
     headers 'Access-Control-Allow-Headers' => 'Authorization,Accepts,Content-Type,X-CSRF-Token,X-Requested-With'
     headers 'Access-Control-Allow-Methods' => 'GET,POST,PUT,DELETE,OPTIONS'
-    @ihop = restaurantsupdate("ihop")
-end #get /api/ihop 
+    @dieci = restaurantsupdate("dieci")
+end #get /api/dieci 
 
-get '/api/chipotle' do
+get '/api/altried' do
     headers 'Access-Control-Allow-Origin' => '*'
     headers 'Access-Control-Allow-Headers' => 'Authorization,Accepts,Content-Type,X-CSRF-Token,X-Requested-With'
     headers 'Access-Control-Allow-Methods' => 'GET,POST,PUT,DELETE,OPTIONS' 
-    @chipotle = restaurantsupdate("chipotle")
-end #get /api/chipotle 
+    @altried = restaurantsupdate("altried")
+end #get /api/altried 
 
-get '/api/outback' do
+get '/api/kaimug' do
     headers 'Access-Control-Allow-Origin' => '*'
     headers 'Access-Control-Allow-Headers' => 'Authorization,Accepts,Content-Type,X-CSRF-Token,X-Requested-With'
     headers 'Access-Control-Allow-Methods' => 'GET,POST,PUT,DELETE,OPTIONS'
-    @outback = restaurantsupdate("outback")
-end #get /api/outback 
+    @kaimug = restaurantsupdate("kaimug")
+end #get /api/kaimug 
 
-get '/api/bucadibeppo' do
+get '/api/bigburger' do
     headers 'Access-Control-Allow-Origin' => '*'
     headers 'Access-Control-Allow-Headers' => 'Authorization,Accepts,Content-Type,X-CSRF-Token,X-Requested-With'
     headers 'Access-Control-Allow-Methods' => 'GET,POST,PUT,DELETE,OPTIONS' 
-    @bucadibeppo = restaurantsupdate("bucadibeppo")
-end #get /api/bucadibeppo 
+    @bigburger = restaurantsupdate("bigburger")
+end #get /api/bigburger 
